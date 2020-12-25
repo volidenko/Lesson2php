@@ -25,14 +25,8 @@ while (true)
   if ($dayCount > $dayOfMonth) break;
 }
 
-$arr== array("red", "orange", "yellow", "lime", "deepskyblue", "blue", "darkviolet");
-
 echo "<table border=1>";
-for ($i = 0; $i < count($week); $i++){
-  echo '<tr style="text-align:center;">';
-  echo "<td>" . $arr[$i] . "</td>";
-  echo "</tr>";
-}
+echo'<tr><th>Пн</th><th>Вт</th><th>Ср</th><th>Чт</th><th>Пт</th><th style="color:red;">Сб</th><th style="color:red;">Нд</th></tr>';
 for ($i = 0; $i < count($week); $i++) {
   echo '<tr style="text-align:center;">';
   for ($j = 0; $j < 7; $j++) {
