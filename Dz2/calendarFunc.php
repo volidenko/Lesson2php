@@ -1,6 +1,5 @@
 <?php
 function calendar($m){
-  $m=2; //месяц текущего года
   $dayOfMonth = cal_days_in_month(CAL_GREGORIAN, $m, date('Y')); //число дней
   $dayCount = 1;
   $n = 0;
